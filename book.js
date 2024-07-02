@@ -42,4 +42,3 @@ const books = [
     update,
     delete: deleteBook,
   };
-  
