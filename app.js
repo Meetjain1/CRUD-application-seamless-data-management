@@ -5,7 +5,6 @@ const books = require('./books');
 
 app.use(bodyParser.json());
 
-
 app.get('/books', (req, res) => {
   res.json(books.getAll());
 });
